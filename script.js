@@ -110,21 +110,21 @@ function initializeMemoriesCarousel() {
     
     // Create memory items (14 images + 1 video)
     memories = [
-        { type: 'image', src: 'images/memory1.jpg' },
-        { type: 'image', src: 'images/memory2.jpg' },
-        { type: 'image', src: 'images/memory3.jpg' },
-        { type: 'image', src: 'images/memory4.jpg' },
-        { type: 'image', src: 'images/memory5.jpg' },
-        { type: 'image', src: 'images/memory6.jpg' },
-        { type: 'image', src: 'images/memory7.jpg' },
-        { type: 'image', src: 'images/memory8.jpg' },
-        { type: 'image', src: 'images/memory9.jpg' },
-        { type: 'image', src: 'images/memory10.jpg' },
-        { type: 'image', src: 'images/memory11.jpg' },
-        { type: 'image', src: 'images/memory12.jpg' },
-        { type: 'image', src: 'images/memory13.jpg' },
-        { type: 'image', src: 'images/memory14.jpg' },
-        { type: 'video', src: 'images/memory15.mp4' }
+        { type: 'image', src: 'memory1.jpg' },
+        { type: 'image', src: 'memory2.jpg' },
+        { type: 'image', src: 'memory3.jpg' },
+        { type: 'image', src: 'memory4.jpg' },
+        { type: 'image', src: 'memory5.jpg' },
+        { type: 'image', src: 'memory6.jpg' },
+        { type: 'image', src: 'memory7.jpg' },
+        { type: 'image', src: 'memory8.jpg' },
+        { type: 'image', src: 'memory9.jpg' },
+        { type: 'image', src: 'memory10.jpg' },
+        { type: 'image', src: 'memory11.jpg' },
+        { type: 'image', src: 'memory12.jpg' },
+        { type: 'image', src: 'memory13.jpg' },
+        { type: 'image', src: 'memory14.jpg' },
+        { type: 'video', src: 'memory15.mp4' }
     ];
     
     // Create memory items in DOM
@@ -385,3 +385,4 @@ const loadingStyles = `
 const styleSheet = document.createElement('style');
 styleSheet.textContent = loadingStyles;
 document.head.appendChild(styleSheet);
+
